@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNote System</title>
+  <link rel="stylesheet" href="Coding.css" />
+</head>
+<body>
+  <div class="Lesson-Box-Menu">
+    <ul>
+      <div class="COPRO">COPRO 1</div>
+    
+      <li>
+        <button class="lesson-btn" id="lesson1" onclick="Lesson1()">
+          <div class="lesson-content">
+            <img src="lesson1-icon.png" class="lesson-icon" alt="Lesson 1 Icon" />
+            <span>Lesson 1</span>
+          </div>
+        </button>
+      </li>
+    
+      <li>
+        <button class="lesson-btn locked" id="lesson2" onclick="checkLessonProgress(1)">
+          <div class="lesson-content">
+            <img src="lesson2-icon.png" class="lesson-icon" alt="Lesson 2 Icon" />
+            <span>Lesson 2</span>
+          </div>
+        </button>
+      </li>
+    
+      <li>
+        <button class="lesson-btn locked" id="lesson3" onclick="checkLessonProgress(2)">
+          <div class="lesson-content">
+            <img src="lesson3-icon.png" class="lesson-icon" alt="Lesson 3 Icon" />
+            <span>Lesson 3</span>
+          </div>
+        </button>
+      </li>
+    </ul>
+
+  <script src="Coding.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNote System - Lesson 1 Quiz</title>
+  <link rel="stylesheet" href="Coding.css" />
+</head>
+<body>
+
+  <div class="quiz-header-container">
+    <div class="quiz-header">
+      <div class="left-column">
+        <div class="attempts-box">
+          <div class="error-title"> Attempts Remaining </div>
+          <div class="error-tracker">
+            <div class="error-slot" id="error1">X</div>
+            <div class="error-slot" id="error2">X</div>
+            <div class="error-slot" id="error3">X</div>
+          </div>
+        </div>
+        <div class="score-box">
+          <div class="score-title">Current Score</div>
+          <div class="score-display" id="scoreValue">0</div>
+        </div>  
+      </div>
+      <div class="gif-box">
+        <div class="gif-container">
+          <img src="default-lesson.gif" alt="Lesson Animation" class="lesson-gif" id="lessonGif" />
+        </div>
+      </div>
+    </div>
+
+  <!-- Quiz Question Section -->
+  <div class="quiz-question-container">
+    <div id="question-container"></div>
+  </div>
+
+  <script src="Coding.js"></script>
+</body>
+</html>
